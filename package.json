@@ -1,0 +1,30 @@
+{
+  "name": "clsavino.github.io",
+  "version": "1.0.0",
+  "description": "Professional Portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clsavino/clsavino.github.io.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js"
+  ],
+  "author": "Christi Savino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clsavino/clsavino.github.io/issues"
+  },
+  "homepage": "https://github.com/clsavino/clsavino.github.io#readme"
+}
