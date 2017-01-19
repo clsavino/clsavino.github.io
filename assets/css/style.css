@@ -219,7 +219,7 @@ h2.about-C{
   padding: 50px 0;
   color: black;
   background-color: #ffffff;
-  background: url('../img/whitePuzzle.jpg') center center scroll;
+  background: url('../img/whitePuzzle.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -233,7 +233,6 @@ h2.about-C{
 }
 #contactBlock {
   background-color: rgba(255, 255, 255, 0.7);
-  /*border: 1px #000000 solid;*/
   margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -408,7 +407,7 @@ a:focus {
   padding: 50px 0;
   margin-bottom:
   color: white;
-  background: url('../img/puzzle.jpg') no-repeat center center scroll;
+  background: url('../img/puzzle.jpg')  center center scroll;
   /*background-color: #ffffff;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
