@@ -12,18 +12,10 @@ body {
   font-family:  "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-label {
+h1,h2,h3,h4,h5,h6,a,label {
   margin: 0 0 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family:  "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 .intro {
@@ -42,13 +34,13 @@ label {
 }
 .page-scroll {
   color: white;
+  font-weight: 900;
 }
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  font-size: 3em;
   margin-bottom: 0;
   color: white;
 }
@@ -56,7 +48,6 @@ label {
   margin-bottom: 0;
   font-size: 1em;
   color: white;
-  font-family:  "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 h2.intro-text {
@@ -71,6 +62,9 @@ h2.intro-text {
 .fa-linkedin {
   color: white;
 }
+#fa-linkedin-blue {
+  color: #158cba;
+}
 .fa-github {
   color: white;
   width: 25px;
@@ -78,11 +72,16 @@ h2.intro-text {
 .content-section {
   padding-top: 50px;
 }
+#contact-me {
+  color: #158cba;
+}
 h2.about-C{
   text-transform: capitalize;
 }
+.about-p {
+  text-align: left;
+}
 .about-top {
-  font-family: "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 #iconsListTop {
@@ -93,113 +92,11 @@ h2.about-C{
   flex-direction: row;
   align-content: center;
 }
+
 .btn-social-icon {
   padding: 0;
   font-size: 1.1em;
 }
-.btn-social-icon:hover {
-  outline: none;
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
-}
-.btn-social-icon:hoveri.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}
-.btn-social-icon:focus {
-  outline: none;
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
-}
-.btn-social-iconi.animated {
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 1s;
-}
-#circle-about {
-  margin: 10px;
-}
-.btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 5px 16px;
-  border: 2px solid #ffffff;
-  border-radius: 100%;
-  font-size: 40px;
-  color: #ffffff;
-  background: transparent;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-.btn-circle:hover {
-  outline: none;
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
-}
-/*
-.btn-circle:hover i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}
-*/
-.btn-circle:focus {
-  outline: none;
-  color: #777777;
-  background: rgba(255, 255, 255, 0.1);
-}
-/*
-.btn-circle i.animated {
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 1s;
-}
-*/
-/*
-@-webkit-keyframes pulse {
-  0 {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@-moz-keyframes pulse {
-  0 {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-}
-*/
 .skills-icons {
   font-size: 5em;
   margin: .5em;
@@ -223,7 +120,6 @@ h2.about-C{
   width: 100%;
   height: 400px;
   padding: 50px 0;
-  color: black;
   background-color: #ffffff;
   background: url('../img/whitePuzzle.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -235,7 +131,7 @@ h2.about-C{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin
+  color: #158cba;
 }
 #contactBlock {
   background-color: rgba(255, 255, 255, 0.7);
@@ -243,6 +139,7 @@ h2.about-C{
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 2em;
+  color: #158cba;
 }
 .contact-info {
   text-transform: none;
@@ -258,28 +155,14 @@ p {
   font-size: 1.25em;
   line-height: 1.5;
 }
-a {
-  color: #252424;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
 a:hover {
-  color: #a5a3a3;
+  color: #158cba;
   text-decoration: none;
-}
-a:focus {
-  color: #595656;
-}
-.light {
-  font-family:  "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
 }
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family:  "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
   background-color: #ffffff;
 }
 .navbar-custom.navbar-toggle {
@@ -307,11 +190,13 @@ a:focus {
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
+
 .navbar-customlia:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
+
 .navbar-customlia:focus {
   outline: none;
   background-color: transparent;
@@ -320,18 +205,17 @@ a:focus {
   outline: none;
   background-color: transparent;
 }
+
 .navbar-customlia:activea {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
 .navbar-customlia:activea:hover {
   color: #ffffff;
 }
+
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
 .btn-default {
@@ -439,9 +323,6 @@ a:focus {
   font-size: 50px;
   font-weight: bold;
 }
-* {
-  font-family: "Montserrat", "Helvetica neue", Helvetica, Arial, sans-serif;
-}
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -465,7 +346,7 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 80px;
+    font-size: 70px;
   }
 
   footer {
@@ -491,7 +372,7 @@ a:focus {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
   .navbar-custom.top-nav-collapse a {
-    color: #000000;
+    color: black;
   }
   .navbar-custom.top-nav-collapselia:hover {
     color: rgba(0, 0, 0, 0.8);
@@ -501,5 +382,29 @@ a:focus {
   }
   .navbar-custom.top-nav-collapseli.active a:hover {
     color: #252424;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-custom {
+    background-color: black;
+    color: white;
+    font-size: .75em;
+    font-weight: normal;
+  }
+  a.page-scroll {
+    max-height: 20px;
+    background-color: black;
+
+  }
+  a.page-scroll:hover {
+    background-color: black;
+  }
+  .nav>li>a:hover, .nav>li>a:focus{
+    text-decoration: none;
+    background-color: black;
+    color: #158cba;
+  }
+  button.navbar-toggle {
+    font-size: 14px;
   }
 }
