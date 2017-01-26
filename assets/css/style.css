@@ -165,8 +165,7 @@ p {
 }
 a:hover {
   color: #158cba;
-  text-decoration:
-  none;
+  text-decoration: none;
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -275,7 +274,7 @@ a:hover {
   transition: opacity .2s ease-in-out;
   background-color: rgba(187, 217, 194, 0.5);
   padding: 2em 1em 1em 1em;
-  width: 325px;
+  width: 315px;
   height: 280px;
   font-size: .75em;
   color: #000000;
@@ -287,7 +286,6 @@ a:hover {
   opacity: 0;
 }
 .thumbnail:hover .caption {
-
   opacity: 1;
 }
 .thumbnail:hover .caption p {
